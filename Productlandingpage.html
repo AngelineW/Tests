@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    
+<head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+<title> ProductLandingPage</title>
+
+
+<style> 
+/*=========================================Entire css=================================*/
+body{
+    background-color:rgba(207, 203, 203, 0.89);
+    color:black;
+}
+
+
+#header{
+    display:inline-flex;
+    width: 100%;
+
+}
+#header-img{
+    width:750px;
+    height:100px;
+}
+.navigation{ 
+    list-style: none;
+    display: flex;
+    float: right;
+    right:0s;
+    padding-top: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding-right: 70px;
+}
+.title{ text-align:center;}
+.topic{ 
+    padding-top:50px;
+}
+
+
+
+/*=======================================Icons======================================*/
+.icon{ 
+    font-size: 40px;
+    color:rgb(248, 203, 4);
+    padding-right: 50px;
+      
+}
+
+.fa{ 
+    padding-top:30px;
+    font-size: 25px;
+}
+.desc{ 
+    padding-left: 300px;
+}
+.video{
+    margin-left: 35vw;
+}
+.btn{ 
+    background-color: yellow;
+    
+}
+/*====================================Styling features -=====================*/
+.desc{
+    display: inline-flex;
+}
+
+
+/*=============================pricing section===================================*/
+.pricing-section{
+    display:flex;
+    text-align:center;
+    left:0;
+    margin-left:250px;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.699);
+    width:250px;
+    margin-top: 20px;
+    margin-right:15px;
+    border: solid black 2px;
+}
+.ins{
+    background-color: rgba(218, 214, 214, 0.438);
+    left:0;
+    height:35px;
+    width:100%;
+
+}
+.inst_name{
+    font-size: 18px;
+    font-family: Helvetica;
+    padding:10px;
+
+}
+.entry{
+    list-style:none;
+    display:inline-flex;
+    font-size:18px;
+    
+}
+.details{
+    padding-right: 30px;
+
+}
+.last-text{
+    text-align:right;
+    background-color:whitesmoke;
+    width:60%;
+    height:15vh;
+    margin-left:250px;
+    margin-top:15px;
+
+}
+
+.select{
+    padding-bottom: 10px;
+}
+/*========================================end of css================================*/
+
+</style> 
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <header id="header">
+            <div class= "heading">
+                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original Trombones Logo">                                                                                                                                                               
+            </div>
+            <div>
+                <ul class="navigation">
+                    <li><a class="nav-link" href="#Features">Features</a></li>
+                    <li><a class="nav-link" href="#How_It_Works">How It Works</a></li>
+                    <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+                </ul>
+            </div>
+        </header>
+            
+    </nav>
+    
+
+    <div class="title">
+        <section id="title">
+            <h2 class="topic">Handcrafted, home-made masterpieces</h2>
+    
+        <div class="email">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                
+                </label>
+                    <input id="submit" type="submit" value=" GET STARTED">
+            </form>
+        </div>
+            
+        </section>
+    </div>
+
+    <section id="Features">
+        <section id="features">
+            <div class="desc">  
+                <div class="icon">
+                    <a class ="icon-item"><i class="fa fa-fire"></i></a>
+                </div>
+                <div class ="feature">
+                    <h2 >Premuim Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sources locally. This will increase the longetivity of your purchase
+                    </p>
+                </div>
+            </div>
+            
+            
+        <div class="desc">
+            <div class="icon">
+                <i class="fa fa-truck"></i>
+            </div>
+            <div class="feature">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+             
+        <div class="desc">
+            <div class="icon">
+                <i class="fa fa-battery-full "></i>
+            </div>
+            <div class="feature">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                </p>
+        </div>
+        </div>
+    </section>
+
+    <section id="How-It-Works">
+        <div class="video">
+            <iframe id="how-video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen>
+            </iframe>
+        </div>    
+    </section>
+    
+    
+    <section id="pricing">
+        <div class="pricing-section">
+            <div class="box">
+                <div class="ins">
+                    <a class="inst_name" id="tenor"> TENOR TROMBONE</a>
+                </div>
+                <div class="select">
+                    <p class="money"> $ 600</p>
+                    <p class="lorem"> Lorem ipsum<br> Lorem ipsum<br> Lorem ipsum dolor<br> Lorem ipsum<br> 
+                    </p>
+                    <input class="btn" type="submit" value="SELECT" name="submit">
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="ins">
+                    <a class="inst_name"> BASS TROMBONE</a>
+                </div>
+                    <p class="money"> $ 900</p>
+                    <p class="lorem"> Lorem ipsum<br> Lorem ipsum<br> Lorem ipsum dolor<br> Lorem ipsum<br> 
+                    </p>
+                    <input class="btn" type="submit" value="SELECT" name="submit">
+                           
+             </div>
+            
+            <div class="box">
+                <div class="ins">
+                    <a class="inst_name" id="valve"> VALVE TROMBONE</a>
+                </div>
+                    <p class="money"> $ 1200</p>
+                    <p class="lorem"> Plays similar to a Trumpet<br> Great for Jazz Bands<br> Lorem ipsum dolor<br> Lorem ipsum<br> 
+                    </p>
+                    <input class="btn" type="submit" value="SELECT" name="submit">
+                
+            </div>
+    </section>
+    
+    <footer>
+        <div class="last-text">
+            <ul class="entry"> 
+                <li class="details">Privacy</li>
+                <li class="details">Terms</li>
+                <li class="details">Contact</li>
+            </ul>
+                <p>Copyright 2016, Original Trombones</p>
+        </div>
+    </footer>   
+
+
+</body>
+</html>
